@@ -28,10 +28,6 @@ class SignUp extends Component {
       return;
     }
 
-    console.log(displayName);
-    console.log(email);
-    console.log(password);
-
     try {
       const { user } = await auth.createUserWithEmailAndPassword(
         email,
