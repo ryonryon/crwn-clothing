@@ -37,7 +37,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(`log-client: ${this.props.currentUser}`);
     return (
       <div>
         <Header />
